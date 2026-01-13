@@ -1,0 +1,23 @@
+# Python - Arquivos temporários de compilação
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Venv)
+venv/
+env/
+ENV/
+
+# Configurações de editores (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# SEGURANÇA: Nunca suba arquivos com credenciais!
+.env
+secrets.json
+*.log
+!README.md
